@@ -1,0 +1,86 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+    
+/*NAVIGATION*/
+    nav {
+            display:flex;
+            position:relative;
+            margin-left: 200px;
+            margin-top: -70px;
+            padding-bottom: 10px;
+            }
+    
+    
+  nav button { display:none; }  /* hamburger button does not need to be shown */
+    nav ul {display: flex;
+            font-size: 15px;}
+    
+    a{ font-size: 15px;}
+
+/* BODY PART OF PAGE*/
+    body {
+            font-size: 17px;
+            
+    }
+    
+    .bdypage img{
+        width: 300px;
+    
+    }  
+    
+    .columns {
+        margin:auto; 
+        text-align: center;
+        align-items: center;
+        
+        width: 300px;
+        padding: 10px;
+        }
+    .columnforpage {
+      -moz-column-count: 3;
+      -webkit-column-count: 3;
+      column-count: 3;
+    }
+
+/*Contact Page*/
+    iframe{ 
+        width:200px; 
+        height:200px;
+        margin-left: -30%;    
+    }
+/*Service Page */
+    table{
+        padding-bottom: 10px;
+    }
+    
+    th{ 
+        font-size: 30px;
+    }
+    td{ 
+        font-size: 20px;
+    }
+/*Event Page*/    
+    .eventtable td{
+        font-size: 15px;
+    }
+    .eventtable th{
+        font-size: 30px;
+    }
+    
+/*Sales Page*/
+    
+    .itemdescription {
+        list-style: none;
+        
+        margin:auto; 
+        text-align: left;
+        align-items: center;
+        
+        width: 400px;
+        }
+/*FOOTER*/
+    footer { 
+        font-size: 15px;
+    
+    
+}/*don't delete on accident */

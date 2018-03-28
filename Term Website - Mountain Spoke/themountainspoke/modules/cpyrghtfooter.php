@@ -1,0 +1,1 @@
+<p class="crfooter"> &copy; The Mountain Spoke owners, <?php echo date("l, F j, Y") ; ?></p>

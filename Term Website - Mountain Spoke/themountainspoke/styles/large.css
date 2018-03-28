@@ -1,0 +1,43 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+    
+/*NAVIGATION*/    
+    nav {
+            display:flex;
+            position:relative;
+            margin-left: 200px;
+            margin-top: -70px;
+            padding-bottom: 10px;
+            }
+    
+    
+    nav button { display:none; }  /* hamburger button does not need to be shown */
+    nav ul {display: flex;
+            }
+    a{ font-size: 20px;}
+  
+/* BODY PART OF PAGE*/
+    .bdypage img{
+        width: 400px;
+    
+    } 
+    
+    .columns {
+        margin:auto; 
+        text-align: center;
+        align-items: center;
+        width: 400px;
+
+        }
+
+/*Contact Page*/
+    iframe{ 
+        width:400px; 
+        height:400px;
+        margin-left: -30%;    
+    }
+
+
+
+}/*don't delete */
+
